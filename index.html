@@ -65,12 +65,9 @@
     a.card:hover { border-color: var(--accent); }
     .card strong { display: block; }
     .card span { color: var(--muted); }
-    footer {
-      margin-top: 56px;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-    footer a { color: inherit; }
+    .links { display: flex; gap: 20px; margin: 16px 0 0; }
+    .links a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -78,6 +75,11 @@
     <header>
       <h1>Marco Herrmann</h1>
       <p class="affiliation">Eindhoven University of Technology</p>
+      <p class="links">
+        <a href="https://www.tue.nl/en/research/researchers/marco-herrmann">TU/e profile</a>
+        <a href="https://github.com/Marco-Herrmann">GitHub</a>
+        <a href="https://www.linkedin.com/in/marco-herrmann-734969144/">LinkedIn</a>
+      </p>
     </header>
 
     <section>
@@ -86,10 +88,6 @@
         <span>Animations and additional material for talks, posters and papers</span>
       </a>
     </section>
-
-    <footer>
-      <a href="https://github.com/Marco-Herrmann">GitHub</a>
-    </footer>
   </main>
 </body>
 </html>
